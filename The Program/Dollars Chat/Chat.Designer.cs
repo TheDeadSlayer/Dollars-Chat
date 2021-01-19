@@ -34,6 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnSend = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.chatBubble11 = new Dollars_Chat.ChatBubble1();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.lblConnected = new System.Windows.Forms.Label();
@@ -49,7 +50,6 @@
             this.txtKick = new System.Windows.Forms.TextBox();
             this.btnKick = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.chatBubble11 = new Dollars_Chat.ChatBubble1();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -104,6 +104,17 @@
             this.panel1.Size = new System.Drawing.Size(664, 527);
             this.panel1.TabIndex = 7;
             // 
+            // chatBubble11
+            // 
+            this.chatBubble11.AutoSize = true;
+            this.chatBubble11.BackColor = System.Drawing.Color.Black;
+            this.chatBubble11.Location = new System.Drawing.Point(10, 29);
+            this.chatBubble11.Margin = new System.Windows.Forms.Padding(5);
+            this.chatBubble11.Name = "chatBubble11";
+            this.chatBubble11.Size = new System.Drawing.Size(619, 118);
+            this.chatBubble11.TabIndex = 0;
+            this.chatBubble11.Visible = false;
+            // 
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
@@ -116,6 +127,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(239)))));
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(134, 6);
@@ -295,17 +307,6 @@
             this.pictureBox7.TabIndex = 25;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
-            // 
-            // chatBubble11
-            // 
-            this.chatBubble11.AutoSize = true;
-            this.chatBubble11.BackColor = System.Drawing.Color.Black;
-            this.chatBubble11.Location = new System.Drawing.Point(10, 29);
-            this.chatBubble11.Margin = new System.Windows.Forms.Padding(5);
-            this.chatBubble11.Name = "chatBubble11";
-            this.chatBubble11.Size = new System.Drawing.Size(619, 118);
-            this.chatBubble11.TabIndex = 0;
-            this.chatBubble11.Visible = false;
             // 
             // Chat
             // 
