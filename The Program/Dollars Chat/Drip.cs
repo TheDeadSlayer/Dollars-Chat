@@ -51,6 +51,10 @@ namespace Dollars_Chat
                 m.Result = (IntPtr)(HT_CAPTION);
         }
 
+        private void Drip_Load(object sender, EventArgs e)
+        {
+            this.Invalidate();
+        }
 
         public Drip(Chat y) 
         {
@@ -62,13 +66,50 @@ namespace Dollars_Chat
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)  // Hide Picture in Chat Form and Close Drip form
-        {
-            
-            x.InvisPic();
+        // Animate Form
 
-            this.Close();
+        private int dx = 10;
+        private int dy = 5;
+        int a = Screen.PrimaryScreen.Bounds.Width - 441;
+        int b = Screen.PrimaryScreen.Bounds.Height - 610;
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            //base.OnPaint(e);
+
+            if (true)
+            {
+                this.Location = new Point(this.Location.X + dx, this.Location.Y+dy);
+                if (Location.X <=0 || Location.X >= a)
+                {
+                    dx = -dx;
+                }
+                else
+                {
+                    this.Invalidate();
+                }
+
+                if (Location.Y <=0 || Location.Y >= b)
+                {
+                    dy = -dy;
+                }
+                else
+                {
+                    this.Invalidate();
+                }
+
+            }
         }
-        
+
+      
+        private void Drip_KeyDown(object sender, KeyEventArgs e)  // Press Esc to close
+        {
+            if (e.KeyCode==Keys.Escape)
+            {
+                x.InvisPic();
+                this.Close();
+            }
+        }
+
     }
 }
