@@ -67,6 +67,7 @@ namespace Dollars_Chat
         Global_UI_Class bbl_Old = new Global_UI_Class();
         SimpleTcpClient client;
         SoundPlayer splay = new SoundPlayer("..\\..\\Music\\DRRR_OP.wav"); // Music Reference Location
+        SoundPlayer splay1 = new SoundPlayer("..\\..\\Music\\Killer_Queen.wav"); // Music Reference Location
 
         public Chat()
         {
@@ -801,11 +802,14 @@ namespace Dollars_Chat
         private void pictureBox6_MouseEnter(object sender, EventArgs e)   // Hidden Pixel
         {
             pictureBox5.Visible = true;
+            splay1.Play();
+            pictureBox6.Enabled = false;
         }
 
         public void InvisPic()                                         //Hiden Pixel Hide
         {
             pictureBox5.Visible = false;
+            pictureBox6.Enabled = true;
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)    //Minimize
