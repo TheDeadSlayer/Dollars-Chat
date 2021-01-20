@@ -8,7 +8,7 @@ namespace Dollars_Chat
 {
     class Global
     {
-        static public UserInfo[] user = new UserInfo[5];
+        static public UserInfo[] user = new UserInfo[100];
         static public int i = 0;
     }
 }

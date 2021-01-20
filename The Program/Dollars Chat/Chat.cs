@@ -786,7 +786,10 @@ namespace Dollars_Chat
 
         private void btnKick_Click(object sender, EventArgs e)        // Kick User
         {
-            client.Send(Login.username + ": " + "@#$kick" + txtKick.Text);
+            if (client.IsConnected)
+            {
+                client.Send(Login.username + ": " + "@#$kick" + txtKick.Text);
+            }
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)    // Show Drip

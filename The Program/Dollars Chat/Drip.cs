@@ -8,12 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Media;
 
 namespace Dollars_Chat
 {
     public partial class Drip : Form    // SOO MUCH DRIP
     {
         Chat x;
+        SoundPlayer s = new SoundPlayer("..\\..\\Music\\Drip_Goku.wav");
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]  //Rounded Edges
         private static extern IntPtr CreateRoundRectRgn
@@ -54,6 +56,7 @@ namespace Dollars_Chat
         private void Drip_Load(object sender, EventArgs e)
         {
             this.Invalidate();
+            s.PlayLooping();
         }
 
         public Drip(Chat y) 
@@ -108,6 +111,7 @@ namespace Dollars_Chat
             {
                 x.InvisPic();
                 this.Close();
+                s.Stop();
             }
         }
 

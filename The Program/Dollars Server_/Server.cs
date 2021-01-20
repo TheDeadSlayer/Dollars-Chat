@@ -137,7 +137,10 @@ namespace Dollars_Server_
                             kickIP = Convert.ToString(cmd.ExecuteScalar());
                             cnn.Close();
 
-                            server.Send(kickIP, "Kicked");
+                            if (!String.IsNullOrEmpty(kickIP))
+                            {
+                                server.Send(kickIP, "Kicked");
+                            }
                         }
 
                         else
