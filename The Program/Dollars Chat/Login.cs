@@ -71,34 +71,42 @@ namespace Dollars_Chat
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            username = txtUserName.Text;
-            string password = txtPassword.Text;
-            bool banned=false;
-
-            // Check if banned and Find Type
-
-            string query2 = "Select * from UserInfo Where UserName='" + username + "' and Password='" + password + "' and Banned='"+banned+"'";
-            string query3= "Select Type from UserInfo Where UserName='" + username + "' and Password='" + password +"'";
-
-            cnn.Open();
-            SqlCommand cmd = new SqlCommand(query3, cnn);
-            Type = Convert.ToString(cmd.ExecuteScalar());
-            cnn.Close();
-
-            SqlDataAdapter sda = new SqlDataAdapter(query2, cnn);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-
-            if (Convert.ToInt32(dt.Rows.Count.ToString()) == 0)
+            if (!String.IsNullOrEmpty(txtUserName.Text) && !String.IsNullOrEmpty(txtPassword.Text))
             {
-                MessageBox.Show("User Doesnt Exist or Banned!");
+                username = txtUserName.Text;
+                string password = txtPassword.Text;
+                bool banned = false;
+
+                // Check if banned and Find Type
+
+                string query2 = "Select * from UserInfo Where UserName='" + username + "' and Password='" + password + "' and Banned='" + banned + "'";
+                string query3 = "Select Type from UserInfo Where UserName='" + username + "' and Password='" + password + "'";
+
+                cnn.Open();
+                SqlCommand cmd = new SqlCommand(query3, cnn);
+                Type = Convert.ToString(cmd.ExecuteScalar());
+                cnn.Close();
+
+                SqlDataAdapter sda = new SqlDataAdapter(query2, cnn);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+
+                if (Convert.ToInt32(dt.Rows.Count.ToString()) == 0)
+                {
+                    MessageBox.Show("User Doesnt Exist or Banned!");
+                }
+
+                else
+                {
+                    Chat x = new Chat();
+                    x.Show();
+                    this.Hide();
+                }
             }
 
             else
             {
-                Chat x = new Chat();
-                x.Show();
-                this.Hide();
+                MessageBox.Show("Please Enter User Name and Password");
             }
         }
 

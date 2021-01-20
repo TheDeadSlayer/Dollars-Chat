@@ -86,7 +86,9 @@ namespace Dollars_Chat
 
         private void btnCreate_Click(object sender, EventArgs e)  //Create Account
         {
-            VIPUser x = Global.user[Global.i] as VIPUser;
+            if (!String.IsNullOrEmpty(txtCreditNum.Text) && !String.IsNullOrEmpty(txtSecNum.Text)&& !String.IsNullOrEmpty(txtDonated.Text))
+            {
+                VIPUser x = Global.user[Global.i] as VIPUser;
 
                 x.creditCardNum = Convert.ToInt32(txtCreditNum.Text);
                 x.SecurityNum = Convert.ToInt32(txtSecNum.Text);
@@ -94,10 +96,16 @@ namespace Dollars_Chat
                  Global.i++;
 
 
-           UpdateDatabase(x.UserName, x.Password, x.Code, x.creditCardNum, x.SecurityNum, x.DonatedAmount,"vip",false,0);
+                UpdateDatabase(x.UserName, x.Password, x.Code, x.creditCardNum, x.SecurityNum, x.DonatedAmount,"vip",false,0);
             Login y = new Login();
             y.Show();
             this.Hide();
+            }
+
+            else
+            {
+                MessageBox.Show("Please Enter Card Number, Security Number and The Donated Amount");
+            }
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)  //Close Application

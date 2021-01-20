@@ -89,7 +89,9 @@ namespace Dollars_Chat
 
         private void btnCreate_Click(object sender, EventArgs e)  //Create Account
         {
-            string UserName = txtUserName.Text;
+            if (!String.IsNullOrEmpty(txtUserName.Text) && !String.IsNullOrEmpty(txtPass.Text))
+            { 
+             string UserName = txtUserName.Text;
             string Password = txtPass.Text;
             int Random = Convert.ToInt32(txtRNum.Text);
 
@@ -119,15 +121,21 @@ namespace Dollars_Chat
 
             }
 
-            if (radioAdmin.Checked && Random == 1337)
-            {
-                Global.user[Global.i] = new AdminUser(UserName, Password, Random);
-                Global.i++;
-                UpdateDatabase(UserName, Password, Random, 0, 0, 0, "admin", false, 0);
+                if (radioAdmin.Checked && Random == 1337)
+                {
+                    Global.user[Global.i] = new AdminUser(UserName, Password, Random);
+                    Global.i++;
+                    UpdateDatabase(UserName, Password, Random, 0, 0, 0, "admin", false, 0);
 
-                Login y = new Login();
-                y.Show();
-                this.Hide();
+                    Login y = new Login();
+                    y.Show();
+                    this.Hide();
+                }
+            }
+
+            else
+            {
+                MessageBox.Show("Please Enter User Name and Password");
             }
         }
 
@@ -229,5 +237,6 @@ namespace Dollars_Chat
                 txtPass.UseSystemPasswordChar = true;
             }
         }
+
     }
 }
