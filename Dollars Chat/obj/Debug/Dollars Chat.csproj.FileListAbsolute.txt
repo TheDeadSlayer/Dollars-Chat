@@ -1,0 +1,82 @@
+C:\Users\Amadeus\Desktop\Dollars Chat\bin\Debug\Dollars Chat.exe.config
+C:\Users\Amadeus\Desktop\Dollars Chat\bin\Debug\Dollars Chat.exe
+C:\Users\Amadeus\Desktop\Dollars Chat\bin\Debug\Dollars Chat.pdb
+C:\Users\Amadeus\Desktop\Dollars Chat\obj\Debug\Dollars Chat.csprojAssemblyReference.cache
+C:\Users\Amadeus\Desktop\Dollars Chat\obj\Debug\Dollars_Chat.Properties.Resources.resources
+C:\Users\Amadeus\Desktop\Dollars Chat\obj\Debug\Dollars Chat.csproj.GenerateResource.cache
+C:\Users\Amadeus\Desktop\Dollars Chat\obj\Debug\Dollars Chat.csproj.CoreCompileInputs.cache
+C:\Users\Amadeus\Desktop\Dollars Chat\obj\Debug\Dollars Chat.exe
+C:\Users\Amadeus\Desktop\Dollars Chat\obj\Debug\Dollars Chat.pdb
+C:\Users\Amadeus\Desktop\Dollars Chat\bin\Debug\SimpleTcp.dll
+C:\Users\Amadeus\Desktop\Dollars Chat\bin\Debug\SimpleTcp.xml
+C:\Users\Amadeus\Desktop\Dollars Chat\obj\Debug\Dollars Chat.csproj.CopyComplete
+C:\Users\Amadeus\Desktop\Dollars Chat\obj\Debug\Dollars_Chat.Form1.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\bin\Debug\Dollars Chat.exe.config
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\bin\Debug\Dollars Chat.exe
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\bin\Debug\Dollars Chat.pdb
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\bin\Debug\SimpleTcp.dll
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\bin\Debug\SimpleTcp.xml
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.Properties.Resources.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars Chat.csproj.GenerateResource.cache
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars Chat.csproj.CoreCompileInputs.cache
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars Chat.csproj.CopyComplete
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars Chat.exe
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars Chat.pdb
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.CreateNew.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.Login.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.VIP.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\bin\Debug\Users.mdf
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\bin\Debug\Users_log.ldf
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\bin\Debug\MaterialSkin.dll
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.Chat.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.ChatBubble1.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars Chat.csprojAssemblyReference.cache
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.AdminUserChatUI.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.FounderChatUI.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_6.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_5.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_4.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_3.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_2.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_1.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_8.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_7.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.Global_UI_Class.resources
+C:\Users\Amadeus\Desktop\Project advanced\Dollars Chat\obj\Debug\Dollars_Chat.MsgBox.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\bin\Debug\Users.mdf
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\bin\Debug\Users_log.ldf
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\bin\Debug\Dollars Chat.exe.config
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\bin\Debug\Dollars Chat.exe
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\bin\Debug\Dollars Chat.pdb
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\bin\Debug\MaterialSkin.dll
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\bin\Debug\SimpleTcp.dll
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\bin\Debug\SimpleTcp.xml
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.AdminUserChatUI.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.FounderChatUI.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.Global_UI_Class.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.MsgBox.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_8.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_7.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_6.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_5.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_4.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_3.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_2.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.VIPUserChatUI_1.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.ChatBubble1.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.CreateNew.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.Chat.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.Login.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.Properties.Resources.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.VIP.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars Chat.csproj.GenerateResource.cache
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars Chat.csproj.CoreCompileInputs.cache
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars Chat.csproj.CopyComplete
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars Chat.exe
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars Chat.pdb
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.Connected_UI.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.Disconnected_UI.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.Kicked_UI.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars Chat.csprojAssemblyReference.cache
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.Drip.resources
+C:\Users\Amadeus\Desktop\Project advanced\The Program\Dollars Chat\obj\Debug\Dollars_Chat.ServerDisconnect_UI.resources
